@@ -1,0 +1,282 @@
+<mxfile host="65bd71144e">
+    <diagram id="SMPPchg8_w9x-fQUagLB" name="Page-1">
+        <mxGraphModel dx="424" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="BBC News Dataset" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fillColor=#004C99;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="91" y="60" width="370" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#00CCCC;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="30" width="370" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;u&gt;text&lt;/u&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#B266FF;top=0;left=0;bottom=0;right=0;pointerEvents=1;shadow=0;" parent="3" vertex="1">
+                    <mxGeometry width="185" height="34" as="geometry">
+                        <mxRectangle width="185" height="34" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&lt;u&gt;labels&lt;/u&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#B266FF;top=0;left=0;bottom=0;right=0;pointerEvents=1;shadow=0;" parent="3" vertex="1">
+                    <mxGeometry x="185" width="185" height="34" as="geometry">
+                        <mxRectangle width="185" height="34" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;" parent="2" vertex="1">
+                    <mxGeometry y="64" width="370" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Ad sales boost Time Warner profit\n\nQuarterly profits at US media giant TimeWarner jumped 76% to $1.13bn (£600m) for the three months to December, from $639m year-earlier.\n\nThe firm, which is now one of the biggest investors in Google, benefited from sales of high-speed internet connections and higher advert sales.&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;business&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry x="185" width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="135" width="370" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Dollar gains on Greenspan speech\n\nThe dollar has hit its highest level against the euro in almost three months after the Federal Reserve head said the US trade deficit is set to stabilise.\n\nAnd Alan Greenspan highlighted the US government's willingness to curb spending and rising household savings as factors which may help to reduce it. In late trading in New York, the dollar reached $1.2871 against the euro, from $1.2974 on Thursday. Market concerns about the deficit has hit the greenback in recent months.&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeColor=#000000;" parent="11" vertex="1">
+                    <mxGeometry width="185" height="72" as="geometry">
+                        <mxRectangle width="185" height="72" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;business&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeColor=#000000;" parent="11" vertex="1">
+                    <mxGeometry x="185" width="185" height="72" as="geometry">
+                        <mxRectangle width="185" height="72" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="207" width="370" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeColor=#000000;" parent="15" vertex="1">
+                    <mxGeometry width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;...&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeColor=#000000;" parent="15" vertex="1">
+                    <mxGeometry x="185" width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="278" width="370" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Losing yourself in online gaming\n\nOnline role playing games are time-consuming, but enthralling flights from reality. But are some people taking their fantasy lives too seriously?\n\nWhen video game World of Warcraft hit the shops in Europe last week fans wrote in to the BBC website to express their delight - and to offer a warning.&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeColor=#000000;" parent="19" vertex="1">
+                    <mxGeometry width="185" height="72" as="geometry">
+                        <mxRectangle width="185" height="72" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&lt;font color=&quot;#000000&quot;&gt;tech&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#FFFFFF;top=0;left=0;bottom=0;right=0;pointerEvents=1;strokeColor=#000000;" parent="19" vertex="1">
+                    <mxGeometry x="185" width="185" height="72" as="geometry">
+                        <mxRectangle width="185" height="72" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="ad sale boost time warner profit quarterli profit us media giant timewarn jump bn three month decemb year earlier firm one biggest investor googl benefit sale high speed internet connect higher advert sale timewarn said fourth quarter sale rose bn bn profit buoy one gain offset profit dip warner bro less user aol time warner said friday own search engin googl internet busi aol mix fortun lost subscrib fourth quarter profit lower preced three quarter howev compani said aol underli profit except item rose back stronger internet advertis revenu hope increas subscrib offer onlin servic free timewarn internet custom tri sign aol exist custom high speed broadband timewarn also restat result follow probe us secur exchang commiss sec close conclud time warner fourth quarter profit slightli better analyst expect film divis saw profit slump help box offic flop alexand catwoman sharp contrast year earlier third final film lord ring trilog boost result full year timewarn post profit bn perform revenu grew bn financi perform strong meet exceed full year object greatli enhanc flexibl chairman chief execut richard parson said timewarn project oper earn growth around also expect higher revenu wider profit margin timewarn restat account part effort resolv inquiri aol us market regul alreadi offer pay settl charg deal review sec compani said unabl estim amount need set asid legal reserv previous set intend adjust way account deal german music publish bertelsmann purchas stake aol europ report advertis revenu book sale stake aol europ loss valu stake" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fontColor=none;fillColor=#FFFFFF;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="200" width="350" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Clean&lt;br&gt;(Normalized)" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="355" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=12;fontColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#FFFFFF;" parent="1" target="33" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="890" y="385" as="sourcePoint"/>
+                        <mxPoint x="990" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=12;fontColor=none;shape=flexArrow;fillColor=#FFFFFF;" parent="1" target="32" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1120" y="384.5" as="sourcePoint"/>
+                        <mxPoint x="1230" y="385" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;shape=flexArrow;html=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=#FFFFFF;" parent="1" source="37" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;span style=&quot;text-align: left;&quot;&gt;Ad sales boost Time Warner profit\n\nQuarterly profits at US media giant TimeWarner jumped 76% to $1.13bn (£600m) for the three months to December, from $639m year-earlier.\n\nThe firm, which is now one of the biggest investors in Google, benefited from sales of high-speed internet connections and higher advert sales. TimeWarner said fourth quarter sales rose 2% to $11.1bn from $10.9bn. Its profits were buoyed by one-off gains which offset a profit dip at Warner Bros, and less users for AOL.\n\nTime Warner said on Friday that it now owns 8% of search-engine Google. But its own internet business, AOL, had has mixed fortunes. It lost 464,000 subscribers in the fourth quarter profits were lower than in the preceding three quarters. However, the company said AOL's underlying profit before exceptional items rose 8% on the back of stronger internet advertising revenues. It hopes to increase subscribers by offering the online service free to TimeWarner internet customers and will try to sign up AOL's existing customers for high-speed broadband. TimeWarner also has to restate 2000 and 2003 results following a probe by the US Securities Exchange Commission (SEC), which is close to concluding.\n\nTime Warner's fourth quarter profits were slightly better than analysts' expectations. But its film division saw profits slump 27% to $284m, helped by box-office flops Alexander and Catwoman, a sharp contrast to year-earlier, when the third and final film in the Lord of the Rings trilogy boosted results. For the full-year, TimeWarner posted a profit of $3.36bn, up 27% from its 2003 performance, while revenues grew 6.4% to $42.09bn. &quot;Our financial performance was strong, meeting or exceeding all of our full-year objectives and greatly enhancing our flexibility,&quot; chairman and chief executive Richard Parsons said. For 2005, TimeWarner is projecting operating earnings growth of around 5%, and also expects higher revenue and wider profit margins.\n\nTimeWarner is to restate its accounts as part of efforts to resolve an inquiry into AOL by US market regulators. It has already offered to pay $300m to settle charges, in a deal that is under review by the SEC. The company said it was unable to estimate the amount it needed to set aside for legal reserves, which it previously set at $500m. It intends to adjust the way it accounts for a deal with German music publisher Bertelsmann's purchase of a stake in AOL Europe, which it had reported as advertising revenue. It will now book the sale of its stake in AOL Europe as a loss on the value of that stake.&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=#FFFFFF;size=14;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="105" width="380" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=#FFFFFF;shape=link;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="33" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1060" y="540" as="sourcePoint"/>
+                        <mxPoint x="990" y="740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="BBC News Dataset" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;fillColor=#004C99;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="810" width="555" height="353" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#00CCCC;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
+                    <mxGeometry y="30" width="555" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;u&gt;text&lt;/u&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#B266FF;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="42" vertex="1">
+                    <mxGeometry width="185" height="34" as="geometry">
+                        <mxRectangle width="185" height="34" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="&lt;u&gt;labels&lt;/u&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#B266FF;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="42" vertex="1">
+                    <mxGeometry x="185" width="185" height="34" as="geometry">
+                        <mxRectangle width="185" height="34" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="cleaned_text" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#B266FF;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="42" vertex="1">
+                    <mxGeometry x="370" width="185" height="34" as="geometry">
+                        <mxRectangle width="185" height="34" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#FFFFFF;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=1;" parent="41" vertex="1">
+                    <mxGeometry y="64" width="555" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Ad sales boost Time Warner profit\n\nQuarterly profits at US media giant TimeWarner jumped 76% to $1.13bn (£600m) for the three months to December, from $639m year-earlier.\n\nThe firm, which is now one of the biggest investors in Google, benefited from sales of high-speed internet connections and higher advert sales.&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="45" vertex="1">
+                    <mxGeometry width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;business&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="45" vertex="1">
+                    <mxGeometry x="185" width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;ad sale boost time warner profit quarterli profit us media giant timewarn jump bn three month decemb year earlier firm one biggest investor googl benefit sale high speed internet connect higher advert sale timewarn said fourth quarter sale rose bn bn profit buoy one gain offset profit dip warner bro less user aol time warner said friday own search engin googl internet busi aol mix fortun lost subscrib fourth quarter profit lower preced three quarter&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="45" vertex="1">
+                    <mxGeometry x="370" width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#FFFFFF;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
+                    <mxGeometry y="135" width="555" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Dollar gains on Greenspan speech\n\nThe dollar has hit its highest level against the euro in almost three months after the Federal Reserve head said the US trade deficit is set to stabilise.\n\nAnd Alan Greenspan highlighted the US government's willingness to curb spending and rising household savings as factors which may help to reduce it. In late trading in New York, the dollar reached $1.2871 against the euro, from $1.2974 on Thursday. Market concerns about the deficit has hit the greenback in recent months.&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="48" vertex="1">
+                    <mxGeometry width="185" height="75" as="geometry">
+                        <mxRectangle width="185" height="75" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;business&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="48" vertex="1">
+                    <mxGeometry x="185" width="185" height="75" as="geometry">
+                        <mxRectangle width="185" height="75" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;dollar gain greenspan speech dollar hit highest level euro almost three month feder reserv head said us trade deficit set stabilis alan greenspan highlight us govern willing curb spend rise household save factor may help reduc late trade new york dollar reach euro thursday market concern deficit hit greenback recent month&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="48" vertex="1">
+                    <mxGeometry x="370" width="185" height="75" as="geometry">
+                        <mxRectangle width="185" height="75" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#FFFFFF;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
+                    <mxGeometry y="210" width="555" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="51" vertex="1">
+                    <mxGeometry width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;...&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="51" vertex="1">
+                    <mxGeometry x="185" width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;...&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="51" vertex="1">
+                    <mxGeometry x="370" width="185" height="71" as="geometry">
+                        <mxRectangle width="185" height="71" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#FFFFFF;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
+                    <mxGeometry y="281" width="555" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Losing yourself in online gaming\n\nOnline role playing games are time-consuming, but enthralling flights from reality. But are some people taking their fantasy lives too seriously?\n\nWhen video game World of Warcraft hit the shops in Europe last week fans wrote in to the BBC website to express their delight - and to offer a warning.&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="54" vertex="1">
+                    <mxGeometry width="185" height="72" as="geometry">
+                        <mxRectangle width="185" height="72" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="&lt;font color=&quot;#000000&quot;&gt;tech&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="54" vertex="1">
+                    <mxGeometry x="185" width="185" height="72" as="geometry">
+                        <mxRectangle width="185" height="72" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="&lt;span style=&quot;text-align: right;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;lose onlin game onlin role play game time consum enthral flight realiti peopl take fantasi live serious video game world warcraft hit shop europ last week fan wrote bbc websit express delight offer warn addict game like far costli time substanc could impair keep track time wrote travi anderson texa&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="54" vertex="1">
+                    <mxGeometry x="370" width="185" height="72" as="geometry">
+                        <mxRectangle width="185" height="72" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1411" y="580" as="sourcePoint"/>
+                        <mxPoint x="1411" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="&lt;span style=&quot;&quot;&gt;Steps:&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;1. Remove non-alpha characters.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;2. Convert all characters to lowercase.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;3. Split articles into tokens, where each word is an element of an array.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;4. Stem (reduce to its base form) each word.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;5. Ignore stop words.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;6. Remove stemmed words determined during feature selection to be ignored.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;7. Join each stemmed word, separated by a space.&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=14;pointerEvents=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="925" y="540" width="270" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="Bag of Words Model" style="text;html=1;strokeColor=none;fillColor=#FF8000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FF8000;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="1310" width="720" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="CountVectorizer" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="1380" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="TFIDFVectorizer" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1260" y="1380" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1240" y="1175" as="sourcePoint"/>
+                        <mxPoint x="1240.5" y="1300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" value="Train Traditional ML Models" style="text;html=1;strokeColor=none;fillColor=#FF8000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FF8000;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="2065" width="720" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/practicaldev/image/fetch/s--qveZ_g7d--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://raw.githubusercontent.com/cassieview/intro-nlp-wine-reviews/master/imgs/vectorchart.PNG;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="1430" width="520" height="231" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://kavita-ganesan.com/wp-content/uploads/image-5-1024x391.png;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="1690" width="520" height="199" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.kdnuggets.com/wp-content/uploads/awan_convert_text_documents_tfidf_matrix_tfidfvectorizer_3.png;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="1260" y="1480" width="520" height="347" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1240" y="1910" as="sourcePoint"/>
+                        <mxPoint x="1240.5" y="2035" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="Naive Bayes (MultinomialNB)" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="2140" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="Support Vector Machines" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="2200" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="Random Forests" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="2260" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;strokeColor=#000000;fontSize=24;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="915" y="2540" width="650" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="Article" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="2590" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="Category: &lt;b&gt;Business&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="944" y="2826" width="232" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="Summary" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="2886" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Categorize and Summarize&lt;/font&gt;" style="rounded=1;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;shadow=0;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="2787" width="230" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="&lt;span style=&quot;&quot;&gt;UK house prices dip in November&lt;br&gt;&lt;br&gt;UK house prices dipped slightly in November, the Office of the Deputy Prime Minister (ODPM) has said.&lt;br&gt;The average house price fell marginally to £180,226, from £180,444 in October. Recent evidence has suggested that the UK housing market is slowing after interest rate increases, and economists forecast a drop in prices during 2005. But while the monthly figures may hint at a cooling of the market, annual house price inflation is still strong, up 13.8% in the year to November.&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#E6E6E6;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="2620" width="580" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="&lt;span style=&quot;&quot;&gt;&lt;div&gt;UK house prices dip slightly in November, Office of the Deputy Prime Minister says . Average house price fell marginally to £180,226, from £179,444 in October . Halifax mortgage lender says prices rose 15.1% over the whole of 2004, but by only 2.8% in second half of year . North East shows highest rate of inflation at 26.2%, followed by Yorkshire and Humber on 21.7%, and North West at 21.1%.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#CCCCCC;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="2916" width="580" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="News Classification and Summarization Web Application" style="text;html=1;strokeColor=none;fillColor=#FF8000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FF8000;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="2465" width="720" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1240" y="2310" as="sourcePoint"/>
+                        <mxPoint x="1240.5" y="2435" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
