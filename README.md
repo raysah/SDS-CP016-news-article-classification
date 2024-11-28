@@ -1,5 +1,5 @@
 # Welcome to the SuperDataScience Community Project!
-Welcome to the --project name-- repository! 🎉
+Welcome to the News Article Classification repository! 🎉
 
 This project is a collaborative initiative brought to you by SuperDataScience, a thriving community dedicated to advancing the fields of data science, machine learning, and AI. We are excited to have you join us in this journey of learning, experimentation, and growth.
 
@@ -16,10 +16,9 @@ In this repository, you’ll find the work carried out by our community members 
 
 **Data Cleaning & Analysis (Week 1)**
 - Handling null values, fixing data types, data inconsistencies
-- EDA, understanding distributions, outliers, relationships of features with target variable
-- Feature Selection using correlation analysis, ANOVA tests, F-test, etc.
+- EDA
 
-**Feature Engineering & Model Selection (Week 2 & 3)**
+**Feature Engineering & Model Selection (Week 2)**  
 - Building new features, merging other forms of data
 - Training traditional NLP models
 - Performance evaluation of traditional NLP models
@@ -27,7 +26,7 @@ In this repository, you’ll find the work carried out by our community members 
 - Use generative model to suggest labels to unlabeled articles (optional)
 - Evaluate suggested labels and use curated articles to improve traditional NLP models (optional)
 
-**Deployment (Week 4)**
+**Deployment (Week 3)**
 - Building a streamlit app
 - Deploying model to app
 - Deploying app to streamlit cloud
