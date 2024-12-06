@@ -87,19 +87,22 @@ def classify(text):
 
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=0, shuffle=True)
     classifier = MultinomialNB(alpha=1.0, fit_prior=True).fit(x_train, y_train)
+    classifier = load_classical_learning_model()
     y_pred = cv.transform([text])
+    print(text)
     yy = classifier.predict(y_pred)
+    print(yy)
 
     if yy == [0]:
         return "Business News"
     elif yy == [1]:
-        return "Tech News"
+        return "Entertainment News"
     elif yy == [2]:
         return "Politics News"
     elif yy == [3]:
         return "Sports News"
-    elif yy == [1]:
-        return "Entertainment News"
+    elif yy == [4]:
+        return "Tech News"
 
 def main():
     st.markdown(f"<h1 style='{style_heading}'>Classify and Summarize News Article</h1>", unsafe_allow_html=True)
