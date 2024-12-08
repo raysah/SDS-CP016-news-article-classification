@@ -1,10 +1,6 @@
 import streamlit as st
 import pickle
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
-import numpy as np
-import pandas as pd
+import joblib
 import re
 st.set_page_config(layout="wide")
 
@@ -74,34 +70,17 @@ def classify(text):
     Returns:
     category: the article's classification.
     """
-    #input_file = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/notebooks/dattu-sahoo/bbc_text_cls.csv'
-    #df_input_text = pd.read_csv(input_file)
-    #df_input_text['LabelID'] = df_input_text['labels'].factorize()[0]
-    #df_input_text['text'] = df_input_text['text'].apply(remove_tags)
-    #df_input_text['text'] = df_input_text['text'].apply(special_char)
-    #df_input_text['text'] = df_input_text['text'].apply(convert_lower)
 
-    #y = np.array(df_input_text.LabelID.values)
-    cv = CountVectorizer(max_features=5000)
-    #x = cv.fit_transform(df_input_text.text).toarray()
-    #x = cv.fit_transform(text).toarray()
 
     vectorizer_path = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/web-app/dattu-sahoo/models/news_classification_vectorizer.pkl'
-    #pickle_in = open(vectorizer_path, 'rb')
-    #x = pickle.load(pickle_in)
+    #vectorizer_path = "https://github.com/raysah/SDS-CP016-news-article-classification/blob/d8f1a1876859db85f60b703e993c69cfb09dd1d5/web-app/dattu-sahoo/models/news_classification_vectorizer.pkl"
+
 
     cv = pickle.load(open(vectorizer_path, 'rb'))
 
-
-    #x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=0, shuffle=True)
-    #classifier = MultinomialNB(alpha=1.0, fit_prior=True).fit(x_train, y_train)
     classifier = load_classical_learning_model()
-    #y_pred = cv.transform([text])
     y_pred = cv.transform([text])
-    print(text)
     yy = classifier.predict(y_pred)
-    #yy = classifier.predict([[text]])
-    print(yy)
 
     if yy == [0]:
         return "Business News"
