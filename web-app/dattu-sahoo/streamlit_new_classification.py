@@ -1,7 +1,8 @@
 import streamlit as st
 import pickle
-import joblib
+import requests
 import re
+import io
 st.set_page_config(layout="wide")
 
 style_heading = 'text-align: center'
@@ -38,11 +39,25 @@ def load_classical_learning_model():
     Loads a machine learning model.
 
     """
-    model_path = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/web-app/dattu-sahoo/models/news_classification.pkl'
-    # model_path = "https://github.com/raysah/SDS-CP016-news-article-classification/blob/d8f1a1876859db85f60b703e993c69cfb09dd1d5/web-app/dattu-sahoo/models/news_classification.pkl"
+    #1st iteration
+    #model_path = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/web-app/dattu-sahoo/models/news_classification.pkl'
+    #pickle_in = open(model_path, 'rb')
+    #classifier = pickle.load(pickle_in)
 
-    pickle_in = open(model_path, 'rb')
-    classifier = pickle.load(pickle_in)
+    #2nd Iteration
+    # Raw URL of the pickle file from the GitHub repo
+    url = 'https://raw.githubusercontent.com/raysah/SDS-CP016-news-article-classification/d8f1a1876859db85f60b703e993c69cfb09dd1d5/web-app/dattu-sahoo/models/news_classification.pkl'
+
+    # Step 1: Fetch the pickle file from the GitHub URL
+    response = requests.get(url)
+
+    # Check if the request was successful (status code 200)
+    if response.status_code == 200:
+        # Step 2: Load the pickle file from the raw content of the response
+        classifier = pickle.load(io.BytesIO(response.content))
+        print("Model successfully loaded from pickle file.")
+    else:
+        print(f"Failed to retrieve the file. Status code: {response.status_code}")
 
     return classifier
 
@@ -76,11 +91,22 @@ def classify(text):
     """
 
 
-    vectorizer_path = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/web-app/dattu-sahoo/models/news_classification_vectorizer.pkl'
-    #vectorizer_path = "https://github.com/raysah/SDS-CP016-news-article-classification/blob/d8f1a1876859db85f60b703e993c69cfb09dd1d5/web-app/dattu-sahoo/models/news_classification_vectorizer.pkl"
+    #vectorizer_path = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/web-app/dattu-sahoo/models/news_classification_vectorizer.pkl'
+    #cv = pickle.load(open(vectorizer_path, 'rb'))
 
+    # Raw URL of the pickle file from the GitHub repo
+    url = 'https://raw.githubusercontent.com/raysah/SDS-CP016-news-article-classification/d2f227ad10a0a323b222bb76f123e972fead1f56/web-app/dattu-sahoo/models/news_classification_vectorizer.pkl'
 
-    cv = pickle.load(open(vectorizer_path, 'rb'))
+    # Step 1: Fetch the pickle file from the GitHub URL
+    response = requests.get(url)
+
+    # Check if the request was successful (status code 200)
+    if response.status_code == 200:
+        # Step 2: Load the pickle file from the raw content of the response
+        cv = pickle.load(io.BytesIO(response.content))
+        print("Vectorizer successfully loaded from pickle file.")
+    else:
+        print(f"Failed to retrieve the file. Status code: {response.status_code}")
 
     classifier = load_classical_learning_model()
     y_pred = cv.transform([text])
