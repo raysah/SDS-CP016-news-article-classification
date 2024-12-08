@@ -39,6 +39,8 @@ def load_classical_learning_model():
 
     """
     model_path = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/web-app/dattu-sahoo/models/news_classification.pkl'
+    # model_path = "https://github.com/raysah/SDS-CP016-news-article-classification/blob/d8f1a1876859db85f60b703e993c69cfb09dd1d5/web-app/dattu-sahoo/models/news_classification.pkl"
+
     pickle_in = open(model_path, 'rb')
     classifier = pickle.load(pickle_in)
 
@@ -59,6 +61,8 @@ def special_char(text):
 
 def convert_lower(text):
    return text.lower()
+
+
 def classify(text):
     """
     Classifies the article text using a classical machine learning model.
