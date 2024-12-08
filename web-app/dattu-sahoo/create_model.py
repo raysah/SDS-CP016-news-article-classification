@@ -36,12 +36,18 @@ def show_news_category(news_input):
     y = np.array(df_input_text.LabelID.values)
     cv = CountVectorizer(max_features=5000)
     x = cv.fit_transform(df_input_text.text).toarray()
+    cv.fit_transform(df_input_text.text).toarray()
 
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=0, shuffle=True)
     classifier = MultinomialNB(alpha=1.0, fit_prior=True).fit(x_train, y_train)
     y_pred = classifier.predict(x_test)
     y_pred1 = cv.transform([news_input])
     yy = classifier.predict(y_pred1)
+
+    # Save the vectorizer
+    vec_path = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/web-app/dattu-sahoo/models/news_classification_vectorizer.pkl'
+    #vec_file = 'vectorizer.pickle'
+    pickle.dump(cv, open(vec_path, 'wb'))
 
     model_path = r'/Users/dots/PycharmProjects/SDS-CP016-news-article-classification/web-app/dattu-sahoo/models/news_classification.pkl'
     pickle_out = open(model_path, 'wb')
