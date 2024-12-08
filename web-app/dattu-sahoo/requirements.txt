@@ -1,0 +1,13 @@
+streamlit
+joblib
+numpy
+pandas
+nltk
+scikit-learn
+tensorflow
+keras
+tf-keras
+transformers
+torch
+sentencepiece
+sklearn
